@@ -1,0 +1,36 @@
+.third {
+    padding: 0 16px;
+    margin-bottom: 64px;
+
+    @include media('>=tablet') {
+        margin-bottom: 128px;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        margin-bottom: 40px;
+    }
+
+    .img-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 48px;
+
+        @include media('>=tablet') {
+            margin-bottom: 50px;
+        }
+    }
+
+    .description {
+        padding: 0;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+    }
+}

@@ -1,0 +1,18 @@
+@import "mixins";
+@import "variables";
+@import "general";
+@import "variables";
+
+//blocks//
+
+@import "blocks/head";
+@import "blocks/footer";
+
+//sections//
+
+@import "sections/start";
+@import "sections/description";
+@import "sections/first";
+@import "sections/second";
+@import "sections/third";
+@import "sections/footer-section";

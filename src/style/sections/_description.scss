@@ -1,0 +1,88 @@
+.description {
+    padding: 0 16px;
+    margin-bottom: 71px;
+
+    @include media('>=tablet') {
+        margin-bottom: 135px;
+    }
+
+    .container {
+
+        @include media('>=tablet') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    .overwiew {
+
+        @include media('>=tablet') {
+            max-width: 544px;
+            width: 100%;
+        }
+
+        h2:first-child {
+            margin-bottom: 16px;
+    
+            @include media('>=tablet') {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .specification {
+
+        @include media('>=tablet') {
+            max-width: 352px;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+    }
+
+    .description {
+        padding: 0;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+        margin-bottom: 64px;
+
+        @include media('>=tablet') {
+            margin-bottom: 0;
+        }
+
+        p:first-child {
+            margin-bottom: 48px;
+        }
+    }
+
+    .desc {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+        margin-bottom: 46px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 32px;
+            letter-spacing: 0.05em;
+            color: #565656; 
+        }
+    }
+
+}
